@@ -34,8 +34,8 @@ class signUpScreen: UIViewController {
                     self.makeAlert(tittleInput: "Error", messageInput: error?.localizedDescription ?? "Error")
                     
                 }
-            //segue
-                print("Created.")
+                self.performSegue(withIdentifier: "toPlacesVC", sender: nil)
+                //print("Created.")
                 
             }
             

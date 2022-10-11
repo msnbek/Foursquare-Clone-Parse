@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED49677728F6069200DFE40B /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49677628F6069200DFE40B /* DetailsVC.swift */; };
+		ED49677928F606A900DFE40B /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49677828F606A900DFE40B /* MapVC.swift */; };
+		ED49677B28F60F3E00DFE40B /* resultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49677A28F60F3E00DFE40B /* resultVC.swift */; };
+		ED49677D28F612CD00DFE40B /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED49677C28F612CD00DFE40B /* PlaceModel.swift */; };
 		ED86B2EB28F5D86300EDA2A0 /* signUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86B2EA28F5D86300EDA2A0 /* signUpScreen.swift */; };
 		ED86B2ED28F5E4B300EDA2A0 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED86B2EC28F5E4B300EDA2A0 /* PlacesVC.swift */; };
 		EDFF583128F5C14A002ECCE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFF583028F5C14A002ECCE1 /* AppDelegate.swift */; };
@@ -22,6 +26,10 @@
 		8E2D90B94CFA32E3E94C131A /* Pods-Foursquare Clone Parse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foursquare Clone Parse.release.xcconfig"; path = "Target Support Files/Pods-Foursquare Clone Parse/Pods-Foursquare Clone Parse.release.xcconfig"; sourceTree = "<group>"; };
 		CB81859661C024F8534413C8 /* Pods-Foursquare Clone Parse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Foursquare Clone Parse.debug.xcconfig"; path = "Target Support Files/Pods-Foursquare Clone Parse/Pods-Foursquare Clone Parse.debug.xcconfig"; sourceTree = "<group>"; };
 		EC711FF749EA6FCB5D3661E0 /* Pods_Foursquare_Clone_Parse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Foursquare_Clone_Parse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED49677628F6069200DFE40B /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		ED49677828F606A900DFE40B /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		ED49677A28F60F3E00DFE40B /* resultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultVC.swift; sourceTree = "<group>"; };
+		ED49677C28F612CD00DFE40B /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		ED86B2EA28F5D86300EDA2A0 /* signUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpScreen.swift; sourceTree = "<group>"; };
 		ED86B2EC28F5E4B300EDA2A0 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		EDFF582D28F5C14A002ECCE1 /* Foursquare Clone Parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foursquare Clone Parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +97,10 @@
 				EDFF583428F5C14A002ECCE1 /* ViewController.swift */,
 				ED86B2EA28F5D86300EDA2A0 /* signUpScreen.swift */,
 				ED86B2EC28F5E4B300EDA2A0 /* PlacesVC.swift */,
+				ED49677628F6069200DFE40B /* DetailsVC.swift */,
+				ED49677C28F612CD00DFE40B /* PlaceModel.swift */,
+				ED49677828F606A900DFE40B /* MapVC.swift */,
+				ED49677A28F60F3E00DFE40B /* resultVC.swift */,
 				EDFF583628F5C14A002ECCE1 /* Main.storyboard */,
 				EDFF583928F5C14D002ECCE1 /* Assets.xcassets */,
 				EDFF583B28F5C14D002ECCE1 /* LaunchScreen.storyboard */,
@@ -213,9 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDFF583528F5C14A002ECCE1 /* ViewController.swift in Sources */,
+				ED49677B28F60F3E00DFE40B /* resultVC.swift in Sources */,
+				ED49677728F6069200DFE40B /* DetailsVC.swift in Sources */,
 				EDFF583128F5C14A002ECCE1 /* AppDelegate.swift in Sources */,
 				EDFF583328F5C14A002ECCE1 /* SceneDelegate.swift in Sources */,
+				ED49677928F606A900DFE40B /* MapVC.swift in Sources */,
 				ED86B2EB28F5D86300EDA2A0 /* signUpScreen.swift in Sources */,
+				ED49677D28F612CD00DFE40B /* PlaceModel.swift in Sources */,
 				ED86B2ED28F5E4B300EDA2A0 /* PlacesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

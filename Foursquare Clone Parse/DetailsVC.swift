@@ -75,3 +75,4 @@ class DetailsVC: UIViewController,UIImagePickerControllerDelegate,UINavigationCo
 
     
 }
+
